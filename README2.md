@@ -14,7 +14,7 @@ Spring Boot Sample SAML 2.0 Service Provider
 * 运行时如果出现以下异常，需要更新SSOCircle证书<br/> 
 `javax.net.ssl.SSLPeerUnverifiedException: SSL peer failed hostname validation for name: null`<br/>
 * 切换到cd src/main/resources/saml 目录下，执行 ./update-certifcate.sh脚本进行更新<br/>
-* 访问[http://localhost:8080/saml/metadata](http://localhost:8080/saml/medadata)下载SP metadata<br/>
+* 访问[http://localhost:8080/saml/metadata](http://localhost:8080/saml/metadata)下载SP metadata<br/>
 * 访问[https://www.ssocircle.com](https://www.ssocircle.com)网站，进行登陆<br/>
 * 点击Manage Metadata ==> Add new Service Provider添加SP metadata到IDP<br/>
 * FQDN 填写entityId，以及把刚才下载的下载SP metadata文件中内容复制进Insert the SAML Metadata information of your SP中<br/>
