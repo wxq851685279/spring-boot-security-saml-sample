@@ -28,4 +28,4 @@ Spring Boot Sample SAML 2.0 Service Provider
 2. 如果发现用户是未认证的，会被重定向到IDP，要求用户进行身份鉴别<br/>
 3. IDP对用户身份进行认证<br/>
 4. 认证通过后，会带着SAML artifact被重定向到SP，SAML artifact是认证的标识<br/>
-5. 当收到SAML artifact后，SP会发送会IDP，IDP根据SAML artifact找到认证信息，最后通过SAML Artifact Response发送给SP<br/>
+5. 当收到SAML artifact后，SP会发送到IDP，IDP根据SAML artifact找到认证信息，最后通过SAML Artifact Response发送给SP<br/>
